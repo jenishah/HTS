@@ -1,0 +1,21 @@
+AID362 144 Primary 4279 1.4%
+AID604 154 Primary 59788 0.35%
+AID456 153 Primary 9982 0.27%
+AID688 154 Primary 27198 0.91%
+AID373 154 Primary 59788 0.1%
+AID746 154 Primary 59788 0.61%
+AID687 153 Primary 33067 0.28%
+AID746&AID1284 154 Primary and Confirmatory 59784 0.1%
+AID604&AID644 154 Primary and Confirmatory 59782 0.11%
+AID373&AID439 154 Primary and Confirmatory 59795 0.02%
+AID687&AID721 153 Primary and Confirmatory 33046 0.06%
+AID1608 154 Confirmatory 1033 6.58%
+AID644 100 Confirmatory 206 32.52%
+AID1284 103 Confirmatory 362 15.75%
+AID439 81 Confirmatory 69 18.84%
+AID721 87 Confirmatory 94 22.34%
+AID1608 914 Confirmatory 1033 6.58%
+AID644 914 Confirmatory 206 32.52%
+AID1284 914 Confirmatory 362 15.75%
+AID439 914 Confirmatory 69 18.84%
+AID721 914 Confirmatory 94 22.34%
