@@ -1,0 +1,36 @@
+1st file, with p support
+,var_active=0.1,var_inactive=0.1
+('tn, fp, fn, tp: ', array([495, 349,   5,   7]))
+
+ind_inact = 153
+ind_act = 38
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4th file:'AID688'
+ind_inact = 17
+ind_act = 142
+
+
+'tn, fp, fn, tp: ', array([2553, 2835,   18,   32]))
+
+,var_active=0.5,var_inactive=0.1
+
+on trainning:
+('tn, fp, fn, tp: ', array([10165, 11388,    88,   110]))
+
+######################
+
+var_active=0.1,var_inactive=0.5)
+'tn, fp, fn, tp: ', array([21535,    18,   198,     0]))
+
+('tn, fp, fn, tp: ', array([5384,    4,   50,    0]))
+
+
+​~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+runfile = 2
+var_active=0.1,var_inactive=0.5
+('tn, fp, fn, tp: ', array([   0, 7964,    0,   22]))
+('tn, fp, fn, tp: ', array([   0, 1991,    0,    5])
