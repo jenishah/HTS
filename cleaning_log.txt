@@ -1,0 +1,15 @@
+F1
+Adding 737 new samples
+removing 1185 samples
+
+F2
+Adding 107 new samples
+removing 212 samples
+
+F3
+Adding 966 new samples
+removing 1567 samples
+
+F4
+Adding 216 new samples
+removing 292 samples

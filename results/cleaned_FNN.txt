@@ -1,0 +1,15 @@
+F0:
+('tn, fp, fn, tp: ', array([768,  76,   3,   9]))
+
+F1:
+('tn, fp, fn, tp: ', array([10680,  1235,    20,    22]))
+
+F2:
+('tn, fp, fn, tp: ', array([1919,   72,    4,    1]))
+
+F3:
+('tn, fp, fn, tp: ', array([3482, 1906,   27,   23]))
+
+F4:
+('tn, fp, fn, tp: ', array([11734,   211,     8,     4]))
+** interrupted **
