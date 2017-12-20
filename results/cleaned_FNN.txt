@@ -13,3 +13,70 @@ F3:
 F4:
 ('tn, fp, fn, tp: ', array([11734,   211,     8,     4]))
 ** interrupted **
+
+F4:
+('tn, fp, fn, tp: ', array([11005,   940,     4,     8]))
+** interrrupted **
+
+('tn, fp, fn, tp: ', array([11039,   906,     4,     8]))
+final.
+
+
+
+Boosting
+
+F0:
+('tn, fp, fn, tp: ', array([840,   4,   7,   5]))
+
+F1:
+('tn, fp, fn, tp: ', array([4451,  937,   43,    7]))
+
+F3:
+'tn, fp, fn, tp: ', array([4373, 1015,   40,   10]))
+
+Ensemble:
+
+F3:
+('tn, fp, fn, tp: ', array([4099, 1289,   35,   15]))
+
+F0:
+('tn, fp, fn, tp: ', array([788,  56,   3,   9]))
+
+F1:
+('tn, fp, fn, tp: ', array([9552, 2363,   10,   32]))
+
+SVM on cleaned data:
+F1:
+0.006 80
+('tn, fp, fn, tp', array([37325,  9151,     3,   904]))
+('tn, fp, fn, tp', array([9389, 2526,    9,   33]))
+
+F2:
+0.006 120
+('tn, fp, fn, tp', array([6919,  833,    0,  129]))
+('tn, fp, fn, tp', array([1722,  269,    3,    2]))
+
+F3:
+0.02 75
+('tn, fp, fn, tp', array([17141,  2845,     0,  1164]))
+('tn, fp, fn, tp', array([4358, 1030,   41,    9]))
+
+different ensemble:
+
+F1:
+('tn, fp, fn, tp: ', array([9791, 2124,   12,   30]))
+
+another time:
+('tn, fp, fn, tp: ', array([10940,   975,    19,    23]))
+
+using more:
+'tn, fp, fn, tp: ', array([10921,   994,    18,    24]))
+
+F0:
+('tn, fp, fn, tp: ', array([742, 102,   3,   9]))
+
+F3:
+('tn, fp, fn, tp: ', array([4208, 1180,   39,   11]))
+
+F4:
+('tn, fp, fn, tp: ', array([11655,   290,     4,     8]))

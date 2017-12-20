@@ -109,7 +109,7 @@ def shuffle(x,y):
 def get_train_ind(val_iter,no_examples):
     
     if val_iter == 0: #no validation
-        curr_data_size = no_examples
+        return range(0,no_examples)
     else:
         curr_data_size = int(no_examples*0.8)
         interval_size = int(no_examples*0.2)
@@ -144,7 +144,7 @@ def get_train_batch(x,y,indices,batch_size,cuda=True):
     
     if cuda is True:
         train_batch = torch.cuda.FloatTensor(train_batch)
-        train_batch = Variable(train_batch,requires_grad=False).cuda()
+        train_batch = Variable(train_batch).cuda()
         labels_train = Variable(torch.cuda.LongTensor(labels_train[samples]),requires_grad=False)
         labels_train = labels_train.view(batch_size,)
     return train_batch,labels_train

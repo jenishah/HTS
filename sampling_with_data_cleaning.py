@@ -3,8 +3,8 @@ from scipy.spatial import distance_matrix
 
 
 def clean_data(x,y,k=6,alpha = 0.5,h=10,smote_first=True):
-    
-    n_inp, n_feat = x.shape
+    print('here')
+    n_inp,n_feat = x.shape
     
     if smote_first==True:
         x_new,y_new = SMOTE(x,y,alpha = alpha,h=h,k=k)
@@ -61,16 +61,17 @@ def SMOTE(x,y,k,h,alpha):
             k_indices = np.argsort(dist[ex,:])[1:k+1] #because one will be itself, so 0
             k_labels = y[k_indices]
             no_min_neighbours = sum(k_labels)
-            if(sum(no_min_neighbours < int(k/2))):
+            if((no_min_neighbours < int(k/2))):
                 ind_interpolate.append(ex)
                 no_interpolate.append(int(k/2) - no_min_neighbours)
      
     # print(ind_interpolate,no_interpolate)
     ind_interpolate = np.asarray(ind_interpolate).astype(int)
+    no_interpolate = np.asarray(no_interpolate).astype(int)
    
     for ex in range((ind_interpolate.shape[0])):
         ind_tmp = ind_interpolate[ex]
-        ktmp = int(no_interpolate[ex][0])
+        ktmp = no_interpolate[ex]
         
         get_nearest = np.argsort(dist[ind_tmp,:])[2:h+2]
 
@@ -85,6 +86,6 @@ def SMOTE(x,y,k,h,alpha):
         print("NOT adding any new samples")
     else:
         xnew = np.concatenate((x,new_samples),0)
-        ynew = np.concatenate((y,np.ones((new_samples.shape[0],1))),0)
+        ynew = np.concatenate((y,np.ones((new_samples.shape[0],))),0)
         return xnew,ynew
 
